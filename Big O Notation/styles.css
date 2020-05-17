@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(to left, #1c92d2, #f2fcfe);
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+h1 {
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5rem;
+}
