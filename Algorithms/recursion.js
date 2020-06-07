@@ -15,8 +15,10 @@ console.log(fibonacciSequence(10));
 
 function fiboIterative(n) {
   let arr = [0, 1];
-  for (let i = 2; i < n + 1; i++) {
+  for (let i = 2; i <= n; i++) {
     arr.push(arr[i - 2] + arr[i - 1]);
   }
   return arr[n];
 }
+
+console.log(fiboIterative(10));
